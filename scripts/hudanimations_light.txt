@@ -15,7 +15,7 @@ event HudHealthBonusPulseStop
 //=====================================================================================================================
 event HudHealthDyingPulse
 {
-	Animate			PlayerStatusHealthValue			FgColor		"Low"					Linear		0.0		0.0
+	Animate			PlayerStatusHealthValue1			FgColor		"Low"					Linear		0.0		0.0
 
 	RunEvent		HudHealthDyingPulseLoop			0.25
 }
@@ -24,7 +24,7 @@ event HudHealthDyingPulseStop
 	StopEvent		HudHealthDyingPulse				0.0
 	StopEvent		HudHealthDyingPulseLoop			0.0
 
-	Animate			PlayerStatusHealthValue			FgColor		"White"					Linear		0.0		0.0
+	Animate			PlayerStatusHealthValue1			FgColor		"White"					Linear		0.0		0.0
 }
 //=====================================================================================================================
 event HudLowAmmoPulse

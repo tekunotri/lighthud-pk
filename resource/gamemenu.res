@@ -2,8 +2,8 @@
 {
 	"LightHUD"
 	{
-		"label"									"LightHUD"
-		"command"								"engine con_enable 1; toggleconsole; echo LightHUD by Hypnotize"
+		"label"									"LightHUD-pk"
+		"command"								"engine con_enable 1; toggleconsole; echo LightHUD by Hypnotize;echo painkiller recreation attempt by techno"
 	}
 	"Servers"
 	{

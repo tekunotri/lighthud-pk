@@ -2,8 +2,8 @@
 {
 	"Colors"
 	{
-		"White"												"230 235 240 255"
-		"OffWhite"											"230 235 240 255"
+		"White"												"217 165 111 255"
+		"OffWhite"											"217 165 111 255"
 		"DullWhite"											"0 0 0 255"
 		"Orange"											"243 155 83 255"
 		"TransparentBlack"									"0 0 0 0"

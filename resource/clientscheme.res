@@ -5,13 +5,13 @@
 	//===========================================================================================================================================================================
 	"Colors"
 	{
-		"Main"												"80 175 115 255"
+		"Main"												"217 165 111 255"
 		"Low"												"225 75 75 255"
 
-		"Orange"											"80 175 115 255"
-		"OrangeDim"											"80 175 115 255"
-		"LightOrange"										"80 175 115 255"
-		"TFOrange"											"80 175 115 255"
+		"Orange"											"217 165 111 255"
+		"OrangeDim"											"217 165 111 255"
+		"LightOrange"										"217 165 111 255"
+		"TFOrange"											"217 165 111 255"
 		"Purple"											"137 69 99 255"
 
 		"QuestGold"											"208 147 75 255"
@@ -40,7 +40,7 @@
 		"Yellow"											"225 220 220 255"
 		"TransparentYellow"									"225 220 220 255"
 		"BrightYellow"										"255 255 0 255"
-		"GreenSolid"										"80 175 115 255"
+		"GreenSolid"										"217 165 111 255"
 
 		"Black"												"0 0 0 255"
 		"TransparentBlack"									"0 0 0 200"
@@ -167,21 +167,21 @@
 		"QualityColorCollectors_GreyedOut"					"60 0 0 255"
 		"QualityColorPaintkitWeapon_GreyedOut"				"60 60 60 255"
 
-		"SaleGreen"											"80 175 115 255"
+		"SaleGreen"											"217 165 111 255"
 
-		"LightRed"											"80 175 115 255"
-		"LighterRed"										"80 175 115 255"
+		"LightRed"											"217 165 111 255"
+		"LighterRed"										"217 165 111 255"
 		"LighterDarkBrown"									"72 71 70 255"
 		"DarkBrown"											"46 43 42 255"
 
 		"UpgradeDefaultFg"									"225 220 220 255"
 		"UpgradeDefaultBg"									"32 30 30 255"
 		"UpgradeArmedFg"									"225 220 220 255"
-		"UpgradeArmedBg"									"80 175 115 255"
+		"UpgradeArmedBg"									"217 165 111 255"
 		"UpgradeDepressedFg"								"32 30 30 255"
-		"UpgradeDepressedBg"								"80 175 115 255"
+		"UpgradeDepressedBg"								"217 165 111 255"
 		"UpgradeSelectedFg"									"32 30 30 255"
-		"UpgradeSelectedBg"									"80 175 115 255"
+		"UpgradeSelectedBg"									"217 165 111 255"
 		"UpgradeDisabledFg"									"32 30 30 255"
 		"UpgradeDisabledBg"									"0 0 0 255"
 	}
@@ -414,21 +414,109 @@
 	// FONTS
 	//===========================================================================================================================================================================
 
-	"BitMapFontFiles" {"Buttons" "materials/vgui/fonts/buttons_32.vbf" "ButtonsSC" "materials/vgui/fonts/buttons_sc.vbf"}
+	"BitMapFontFiles" {
+	"Buttons" "materials/vgui/fonts/buttons_32.vbf" 
+	"ButtonsSC" "materials/vgui/fonts/buttons_sc.vbf"
+	"Impact" "materials/vgui/fonts/Impact_52.vbf"
+	}
 
 	"Fonts"
 	{
+		"Impact"
+		{
+			"1"	//[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Impact"
+				"scalex"	"1"
+				"scalex_lodef"		"0.75"
+				"scaley"	"1"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		"Impact1"
+		{
+			"1"	//[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Impact"
+				"scalex"	"2"
+				"scalex_lodef"		"0.75"
+				"scaley"	"2"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		"Impact2"
+		{
+			"1"	//[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Impact"
+				"scalex"	"0.5"
+				"scalex_lodef"		"0.75"
+				"scaley"	"0.5"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		"Impact3"
+		{
+			"1"	//[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Impact"
+				"scalex"	"0.75"
+				"scalex_lodef"		"0.75"
+				"scaley"	"0.75"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		"Impact4"
+		{
+			"1"	//[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Impact"
+				"scalex"	"1.5"
+				"scalex_lodef"		"0.75"
+				"scaley"	"1.5"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		"Impact5"
+		{
+			"1"	//[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Impact"
+				"scalex"	"1.25"
+				"scalex_lodef"		"0.75"
+				"scaley"	"1.25"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		"Impact6"
+		{
+			"1"	//[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Impact"
+				"scalex"	"0.35"
+				"scalex_lodef"		"0.75"
+				"scaley"	"0.35"
+				"scaley_lodef"		"0.75"
+			}
+		}
 		"DamageFont"
 		{
-			"1" { "name" "Heebo Bold" "tall" "20" "antialias" "1" "dropshadow" "1" }
+			"1" { "name" "Courier New Bold" "tall" "20" "antialias" "1" "dropshadow" "1" }
 		}
 		"Default"
 		{
-			"1" { "name" "Heebo Bold" "tall" "11" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "11" "antialias" "1" }
 		}
 		"DefaultSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "12" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "12" "antialias" "1" }
 		}
 		"DefaultVerySmall"
 		{
@@ -436,115 +524,119 @@
 		}
 		"CenterPrintText"
 		{
-			"1" { "name" "Heebo Bold" "tall" "18" "antialias" "1" "additive" "1" }
+			"1" { "name" "Courier New Bold" "tall" "18" "antialias" "1" "additive" "1" }
 		}
 		"HudHintText"
 		{
-			"1" { "name" "Heebo Bold" "tall" "11" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "11" "antialias" "1" }
 		}
 		"HudFontGiant"
 		{
-			"1" { "name" "Heebo Bold" "tall" "24" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "24" "antialias" "1" }
 		}
 		"HudFontGiantBold"
 		{
-			"1" { "name" "Heebo Bold" "tall" "46" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "46" "antialias" "1" }
 		}
 		"HudFontBiggerBold"
 		{
-			"1" { "name" "Heebo Bold" "tall" "35" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "35" "antialias" "1" }
 		}
 		"HudFontBiggerBoldShadow"
 		{
-			"1" { "name" "Heebo Bold" "tall" "35" "antialias" "1" "dropshadow" "1" }
+			"1" { "name" "Courier New Bold" "tall" "35" "antialias" "1" "dropshadow" "1" }
 		}
 		"HudFontBig"
 		{
-			"1" { "name" "Heebo Bold" "tall" "36" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "36" "antialias" "1" }
 		}
 		"HudFontMediumBig"
 		{
-			"1" { "name" "Heebo Bold" "tall" "30" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "30" "antialias" "1" }
 		}
 		"HudFontMediumBigBold"
 		{
-			"1" { "name" "Heebo Bold" "tall" "30" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "30" "antialias" "1" }
 		}
 		"HudFontMedium"
 		{
-			"1" { "name" "Heebo Bold" "tall" "24" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "24" "antialias" "1" }
 		}
 		"HudFontMediumSecondary"
 		{
-			"1" { "name" "Heebo Bold" "tall" "24" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "24" "antialias" "1" }
 		}
 		"HudFontMediumBold"
 		{
-			"1" { "name" "Heebo Bold" "tall" "24" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "24" "antialias" "1" }
 		}
 		"HudFontMediumSmallBold"
 		{
-			"1" { "name" "Heebo Bold" "tall" "18" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "18" "antialias" "1" }
 		}
 		"HudFontMediumSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "18" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "18" "antialias" "1" }
 		}
 		"HudFontMediumSmallSecondary"
 		{
-			"1" { "name" "Heebo Bold" "tall" "18" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "18" "antialias" "1" }
 		}
 		"HudFontMediumSmallShadow"
 		{
-			"1" { "name" "Heebo Bold" "tall" "18" "antialias" "1" "dropshadow" "1" }
+			"1" { "name" "Courier New Bold" "tall" "18" "antialias" "1" "dropshadow" "1" }
 		}
 		"HudFontSmallishBold"
 		{
-			"1" { "name" "Heebo Bold" "tall" "16" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "16" "antialias" "1" }
 		}
 		"HudFontSmallishBoldShadow"
 		{
-			"1" { "name" "Heebo Bold" "tall" "16" "antialias" "1" "dropshadow" "1" }
+			"1" { "name" "Courier New Bold" "tall" "16" "antialias" "1" "dropshadow" "1" }
+		}
+		"TimerFont"
+		{
+			"1" { "name" "Times New Roman Bold" "tall" "32" "antialias" "1" "dropshadow" "1" }
 		}
 		"HudFontSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "14" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "14" "antialias" "1" }
 		}
 		"HudFontSmallBold"
 		{
-			"1" { "name" "Heebo Bold" "tall" "14" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "14" "antialias" "1" }
 		}
 		"HudFontSmallest"
 		{
-			"1" { "name" "Heebo Bold" "tall" "11" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "11" "antialias" "1" }
 		}
 		"HudFontSmallestShadow"
 		{
-			"1" { "name" "Heebo Bold" "tall" "11" "antialias" "1" "dropshadow" "1" }
+			"1" { "name" "Courier New Bold" "tall" "11" "antialias" "1" "dropshadow" "1" }
 		}
 		"HudFontSmallestBold"
 		{
-			"1" { "name" "Heebo Bold" "tall" "12" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "12" "antialias" "1" }
 		}
 		"StorePromotionsTitle"
 		{
-			"1" { "name" "Heebo Bold" "tall" "10" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "10" "antialias" "1" }
 		}
 		"FontCartPrice"
 		{
-			"1" { "name" "Heebo Bold" "tall" "16" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "16" "antialias" "1" }
 		}
 		"FontStorePrice"
 		{
-			"1" { "name" "Heebo Bold" "tall" "9" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "9" "antialias" "1" }
 		}
 		"FontStoreOriginalPrice"
 		{
-			"1" { "name" "Heebo Bold" "tall" "9" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "9" "antialias" "1" }
 		}
 		"FontStorePriceSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "6" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "6" "antialias" "1" }
 		}
 		"TFTypeDeath"
 		{
@@ -564,7 +656,7 @@
 		}
 		"MenuMainTitle"
 		{
-			"1" { "name" "Heebo Bold" "tall" "18" "antialias" "1" "dropshadow" "1" }
+			"1" { "name" "Courier New Bold" "tall" "18" "antialias" "1" "dropshadow" "1" }
 		}
 		"ScoreboardSmallest"
 		{
@@ -572,43 +664,43 @@
 		}
 		"ScoreboardVerySmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "8" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "8" "antialias" "1" }
 		}
 		"ScoreboardSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "10" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "10" "antialias" "1" }
 		}
 		"ScoreboardMediumSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "14" "range" "0x0000 0x007F" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "14" "range" "0x0000 0x007F" "antialias" "1" }
 		}
 		"ScoreboardMedium"
 		{
-			"1" { "name" "Heebo Bold" "tall" "20" "range" "0x0000 0x007F" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "20" "range" "0x0000 0x007F" "antialias" "1" }
 		}
 		"TargetID"
 		{
-			"1" { "name" "Heebo Icons V2" "tall" "12" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
+			"1" { "name" "Courier New Bold" "tall" "12" "antialias" "1" "dropshadow" "1" }
 		}
 		"ChatFont"
 		{
-			"1" { "name" "Heebo Bold" "tall" "16" "dropshadow" "1" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "16" "dropshadow" "1" "antialias" "1" }
 		}
 		"TFFontSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "8" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "8" "antialias" "1" }
 		}
 		"TFFontMedium"
 		{
-			"1" { "name" "Heebo Bold" "tall" "9" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "9" "antialias" "1" }
 		}
 		"ImportToolSmallestBold"
 		{
-			"1" { "name" "Heebo Bold" "tall" "10" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "10" "antialias" "1" }
 		}
 		"ImportToolSmallest"
 		{
-			"1" { "name" "Heebo Bold" "tall" "10" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "10" "antialias" "1" }
 		}
 		"SpectatorVerySmall"
 		{
@@ -616,159 +708,159 @@
 		}
 		"ItemFontNameSmallest"
 		{
-			"1" { "name" "Heebo Bold" "tall" "8" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "8" "antialias" "1" }
 		}
 		"ItemFontNameSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "9" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "9" "antialias" "1" }
 		}
 		"ItemFontNameLarge"
 		{
-			"1" { "name" "Heebo Bold" "tall" "12" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "12" "antialias" "1" }
 		}
 		"ItemFontNameLarger"
 		{
-			"1" { "name" "Heebo Bold" "tall" "18" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "18" "antialias" "1" }
 		}
 		"ItemFontAttribSmallest"
 		{
-			"1" { "name" "Heebo Bold" "tall" "7" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "7" "antialias" "1" }
 		}
 		"ItemFontAttribSmallv2"
 		{
-			"1" { "name" "Heebo Bold" "tall" "8" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "8" "antialias" "1" }
 		}
 		"ItemFontAttribSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "8" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "8" "antialias" "1" }
 		}
 		"ItemFontAttribLarge"
 		{
-			"1" { "name" "Heebo Bold" "tall" "11" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "11" "antialias" "1" }
 		}
 		"ItemFontAttribLarger"
 		{
-			"1" { "name" "Heebo Bold" "tall" "14" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "14" "antialias" "1" }
 		}
 		"AchievementTracker_Name"
 		{
-			"1" { "name" "Heebo Bold" "tall" "9" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "9" "antialias" "1" }
 		}
 		"QuestObjectiveTracker_Desc"
 		{
-			"1" { "name" "Heebo Bold" "tall" "7" "additive" "1" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "7" "additive" "1" "antialias" "1" }
 		}
 		"QuestObjectiveTracker_DescGlow"
 		{
-			"1" { "name" "Heebo Bold" "tall" "7" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "7" "antialias" "1" }
 		}
 		"QuestObjectiveTracker_DescBlur"
 		{
-			"1" { "name" "Heebo Bold" "tall" "7" "blur" "3" "additive" "1" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "7" "blur" "3" "additive" "1" "antialias" "1" }
 		}
 		"ItemTrackerScore_InGame"
 		{
-			"1" { "name" "Heebo Bold" "tall" "7" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "7" "antialias" "1" }
 		}
 		"QuestFlavorText"
 		{
-			"1" { "name" "Heebo Bold" "tall" "18" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "18" "antialias" "1" }
 		}
 		"QuestObjectiveText"
 		{
-			"1" { "name" "Heebo Bold" "tall" "18" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "18" "antialias" "1" }
 		}
 		"QuestLargeText"
 		{
-			"1" { "name" "Heebo Bold" "tall" "16" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "16" "antialias" "1" }
 		}
 		"QuestStickyText"
 		{
-			"1" { "name" "Heebo Bold" "tall" "20" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "20" "antialias" "1" }
 		}
 		"QuestInstructionText_Merasmus"
 		{
-			"1" { "name" "Heebo Bold" "tall" "22" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "22" "antialias" "1" }
 		}
 		"QuestFlavorText_Merasmus"
 		{
-			"1" { "name" "Heebo Bold" "tall" "22" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "22" "antialias" "1" }
 		}
 		"QuestObjectiveText_Merasmus"
 		{
-			"1" { "name" "Heebo Bold" "tall" "18" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "18" "antialias" "1" }
 		}
 		"QuestMediumText_Merasmus"
 		{
-			"1" { "name" "Heebo Bold" "tall" "13" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "13" "antialias" "1" }
 		}
 		"QuestLargeText_Merasmus"
 		{
-			"1" { "name" "Heebo Bold" "tall" "16" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "16" "antialias" "1" }
 		}
 		"AdFont_ItemName"
 		{
-			"1" { "name" "Heebo Bold" "tall" "10" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "10" "antialias" "1" }
 		}
 		"AdFont_AdText"
 		{
-			"1" { "name" "Heebo Bold" "tall" "8" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "8" "antialias" "1" }
 		}
 		"AdFont_PurchaseButton"
 		{
-			"1" { "name" "Heebo Bold" "tall" "8" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "8" "antialias" "1" }
 		}
 		"TradeUp_Text"
 		{
-			"1" { "name" "Heebo Bold" "tall" "8" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "8" "antialias" "1" }
 		}
 		"TradeUp_Quote"
 		{
-			"1" { "name" "Heebo Bold" "tall" "9" "antialias" "1" "italic" "1" }
+			"1" { "name" "Courier New Bold" "tall" "9" "antialias" "1" "italic" "1" }
 		}
 		"EconFontSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "14" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "14" "antialias" "1" }
 		}
 		"EconFontMedium"
 		{
-			"1" { "name" "Heebo Bold" "tall" "24" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "24" "antialias" "1" }
 		}
 		"MMenuPlayListDesc"
 		{
-			"1" { "name" "Heebo Bold" "tall" "9" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "9" "antialias" "1" }
 		}
 		"XPSource"
 		{
-			"1" { "name" "Heebo Bold" "tall" "11" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "11" "antialias" "1" }
 		}
 		"XPSource_Glow"
 		{
-			"1" { "name" "Heebo Bold" "tall" "11" "blur" "3" "additive" "1" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "11" "blur" "3" "additive" "1" "antialias" "1" }
 		}
 		"MapVotesPercentage"
 		{
-			"1" { "name" "Heebo Bold" "tall" "12" "antialias" "1" "dropshadow" "1" }
+			"1" { "name" "Courier New Bold" "tall" "12" "antialias" "1" "dropshadow" "1" }
 		}
 		"QuestMap_Small_Blur"
 		{
-			"1" { "name" "Heebo Bold" "tall" "7" "blur" "3" "additive" "1" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "7" "blur" "3" "additive" "1" "antialias" "1" }
 		}
 		"QuestMap_Small"
 		{
-			"1" { "name" "Heebo Bold" "tall" "7" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "7" "antialias" "1" }
 		}
 		"QuestMap_Medium"
 		{
-			"1" { "name" "Heebo Bold" "tall" "10" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "10" "antialias" "1" }
 		}
 		"QuestMap_Large"
 		{
-			"1" { "name" "Heebo Bold" "tall" "14" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "14" "antialias" "1" }
 		}
 		"QuestMap_Huge"
 		{
-			"1" { "name" "Heebo Bold" "tall" "30" "antialias" "1" }
+			"1" { "name" "Courier New Bold" "tall" "30" "antialias" "1" }
 		}
 	}
 	//===========================================================================================================================================================================
@@ -1721,47 +1813,14 @@
 	{
 		"1"
 		{
-			"font" "resource/fonts/heebo.ttf"
-			"name" "Heebo Bold"
+			"font"	"resource/fonts/courbd.ttf"
+			"name"	"Courier New Bold"
 		}
 		"2"
 		{
-			"font" "resource/fonts/heeboicons.ttf"
-			"name" "Heebo Icons V2"
-
-			"english"		{ "range" "0x000 0xFFFF" }
-			"arabic"		{ "range" "0x000 0xFFFF" }
-			"brazilian"		{ "range" "0x000 0xFFFF" }
-			"bulgarian"		{ "range" "0x000 0xFFFF" }
-			"czech"			{ "range" "0x000 0xFFFF" }
-			"danish"		{ "range" "0x000 0xFFFF" }
-			"dutch"			{ "range" "0x000 0xFFFF" }
-			"finnish"		{ "range" "0x000 0xFFFF" }
-			"french"		{ "range" "0x000 0xFFFF" }
-			"german"		{ "range" "0x000 0xFFFF" }
-			"greek"			{ "range" "0x000 0xFFFF" }
-			"hebrew"		{ "range" "0x000 0xFFFF" }
-			"hungarian"		{ "range" "0x000 0xFFFF" }
-			"italian"		{ "range" "0x000 0xFFFF" }
-			"japanese"		{ "range" "0x000 0xFFFF" }
-			"korean"		{ "range" "0x000 0xFFFF" }
-			"koreana"		{ "range" "0x000 0xFFFF" }
-			"latvian"		{ "range" "0x000 0xFFFF" }
-			"lithuanian"	{ "range" "0x000 0xFFFF" }
-			"norwegian"		{ "range" "0x000 0xFFFF" }
-			"pirate"		{ "range" "0x000 0xFFFF" }
-			"polish"		{ "range" "0x000 0xFFFF" }
-			"portuguese"	{ "range" "0x000 0xFFFF" }
-			"romanian"		{ "range" "0x000 0xFFFF" }
-			"russian"		{ "range" "0x000 0xFFFF" }
-			"schinese"		{ "range" "0x000 0xFFFF" }
-			"slovak"		{ "range" "0x000 0xFFFF" }
-			"spanish"		{ "range" "0x000 0xFFFF" }
-			"swedish"		{ "range" "0x000 0xFFFF" }
-			"tchinese"		{ "range" "0x000 0xFFFF" }
-			"thai"			{ "range" "0x000 0xFFFF" }
-			"turkish"		{ "range" "0x000 0xFFFF" }
-			"ukrainian"		{ "range" "0x000 0xFFFF" }
+			"font"	"resource/fonts/timesbd.ttf"
+			"name"	"Times New Roman Bold"
 		}
 	}
+
 }

@@ -13,9 +13,9 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTimePanel"
 		"xpos"										"cs-0.5"
-		"ypos"										"0"
+		"ypos"										"30"
 		"zpos"										"1"
-		"wide"										"40"
+		"wide"										"80"
 		"tall"										"30"
 		"visible"									"0"
 		"enabled"									"1"
@@ -36,8 +36,8 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"north"
 			"labelText"								"0:00"
-			"font"									"HudFontSmallishBoldShadow"
-			"fgcolor"								"White"
+			"font"									"TimerFont"
+			"fgcolor"								"Main"
 		}
 	}
 	"TeamStatus"
