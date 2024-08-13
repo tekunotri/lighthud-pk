@@ -45,7 +45,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
-		"font"										"Impact3"
+		"font"										"impact6"
 
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -64,7 +64,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
-		"font"										"Impact3"
+		"font"										"impact6"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"AmmoInClip"
@@ -83,7 +83,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
-		"font"										"Impact3"
+		"font"										"impact6"
 
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -102,7 +102,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
-		"font"										"Impact3"
+		"font"										"impact6"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"AmmoInReserve"
@@ -120,7 +120,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
-		"font"										"Impact3"
+		"font"										"impact6"
 
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -139,7 +139,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
-		"font"										"Impact3"
+		"font"										"impact6"
 		"fgcolor"									"Black"
 		"pin_to_sibling"							"AmmoNoClip"
 	}

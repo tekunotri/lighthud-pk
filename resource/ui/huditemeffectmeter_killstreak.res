@@ -58,7 +58,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"font"										"Impact3"
+		"font"										"impact6"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -74,7 +74,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"font"										"Impact3"
+		"font"										"impact6"
 		"fgcolor"									"Black"
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}

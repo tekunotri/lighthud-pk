@@ -62,7 +62,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"west"
-		"font"										"Impact3"
+		"font"										"impact6"
 
 		"pin_to_sibling"							"HealthAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -82,7 +82,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"west"
-		"font"										"Impact3"
+		"font"										"impact6"
 		"fgcolor"									"Black"
 		"pin_to_sibling"							"PlayerStatusHealthValue1"
 	}

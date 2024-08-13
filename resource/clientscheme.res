@@ -417,7 +417,9 @@
 	"BitMapFontFiles" {
 	"Buttons" "materials/vgui/fonts/buttons_32.vbf" 
 	"ButtonsSC" "materials/vgui/fonts/buttons_sc.vbf"
-	"Impact" "materials/vgui/fonts/Impact_52.vbf"
+	"Impact_52" "materials/vgui/fonts/Impact_52.vbf"
+	"Impact_Test" "materials/vgui/fonts/Impact_150.vbf"
+
 	}
 
 	"Fonts"
@@ -427,7 +429,7 @@
 			"1"	//[$X360]
 			{
 				"bitmap"	"1"
-				"name"		"Impact"
+				"name"		"Impact_Test"
 				"scalex"	"1"
 				"scalex_lodef"		"0.75"
 				"scaley"	"1"
@@ -439,7 +441,7 @@
 			"1"	//[$X360]
 			{
 				"bitmap"	"1"
-				"name"		"Impact"
+				"name"		"Impact_Test"
 				"scalex"	"2"
 				"scalex_lodef"		"0.75"
 				"scaley"	"2"
@@ -451,7 +453,7 @@
 			"1"	//[$X360]
 			{
 				"bitmap"	"1"
-				"name"		"Impact"
+				"name"		"Impact_Test"
 				"scalex"	"0.5"
 				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
@@ -463,7 +465,7 @@
 			"1"	//[$X360]
 			{
 				"bitmap"	"1"
-				"name"		"Impact"
+				"name"		"Impact_Test"
 				"scalex"	"0.75"
 				"scalex_lodef"		"0.75"
 				"scaley"	"0.75"
@@ -475,7 +477,7 @@
 			"1"	//[$X360]
 			{
 				"bitmap"	"1"
-				"name"		"Impact"
+				"name"		"Impact_Test"
 				"scalex"	"1.5"
 				"scalex_lodef"		"0.75"
 				"scaley"	"1.5"
@@ -487,7 +489,7 @@
 			"1"	//[$X360]
 			{
 				"bitmap"	"1"
-				"name"		"Impact"
+				"name"		"Impact_Test"
 				"scalex"	"1.25"
 				"scalex_lodef"		"0.75"
 				"scaley"	"1.25"
@@ -499,11 +501,9 @@
 			"1"	//[$X360]
 			{
 				"bitmap"	"1"
-				"name"		"Impact"
-				"scalex"	"0.35"
-				"scalex_lodef"		"0.75"
-				"scaley"	"0.35"
-				"scaley_lodef"		"0.75"
+				"name"		"Impact_Test"
+				"scalex"	"0.25"
+				"scaley"	"0.25"
 			}
 		}
 		"DamageFont"
