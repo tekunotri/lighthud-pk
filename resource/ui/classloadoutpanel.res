@@ -177,7 +177,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CharacterLoadoutButton"
-		"xpos"										"cs-1.07"
+		"xpos"										"cs-1.04"
 		"ypos"										"45"
 		"zpos"										"90"
 		"wide"										"52"
